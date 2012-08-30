@@ -9,6 +9,7 @@ public class TextBoxView extends TextBox {
 
     public TextBoxView(SimpleEventBus eventBus) {
         eventBus.addHandler(ClearEvent.TYPE, new ClearEventHandler() {
+            @Override
             public void clear(ClearEvent event) {
                 setText("");
             }

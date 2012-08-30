@@ -12,6 +12,7 @@ public class ButtonView extends Button {
         setText("Clear");
 
         addClickHandler(new ClickHandler() {
+            @Override
             public void onClick(ClickEvent event) {
                 eventBus.fireEvent(new ClearEvent());
             }

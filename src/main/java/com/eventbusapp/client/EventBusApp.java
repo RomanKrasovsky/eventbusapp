@@ -8,6 +8,7 @@ import com.google.gwt.user.client.ui.RootPanel;
 
 public class EventBusApp implements EntryPoint {
 
+    @Override
     public void onModuleLoad() {
         SimpleEventBus eventBus = new SimpleEventBus();
 

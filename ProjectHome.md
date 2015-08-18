@@ -1,0 +1,1 @@
+Simple GWT application that uses Events and Event Bus.
